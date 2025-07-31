@@ -1,0 +1,161 @@
+.edit-form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .edit-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #0d6efd;
+    margin-bottom: 25px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-file-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .form-textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .form-submit-btn {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-submit-btn:hover {
+    background-color: #084298;
+  }
+  
+  .edit-success-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .form-subtitle {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .main-image-preview {
+    max-width: 200px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .additional-images-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .extra-image-preview {
+    width: 150px;
+    border-radius: 8px;
+  }
+  
+  .delete-image-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: crimson;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 0 0 0 8px;
+  }
+  
+  .no-extra-image {
+    font-style: italic;
+    color: #888;
+  }
+
+  /* ===== RESPONSIVE TELEPHONE POUR FORMULAIRE ===== */
+@media (max-width: 600px) {
+  .edit-form {
+    max-width: 100%;
+    margin: 20px 10px;
+    padding: 20px 15px;
+  }
+
+  .edit-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    margin-bottom: 4px;
+  }
+
+  .form-input,
+  .form-textarea,
+  .form-file-input {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  .form-textarea {
+    min-height: 80px;
+  }
+
+  .form-submit-btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .main-image-preview {
+    max-width: 150px;
+    margin-bottom: 8px;
+  }
+
+  .additional-images-list {
+    gap: 8px;
+  }
+
+  .extra-image-preview {
+    width: 100px;
+  }
+}
+
+  

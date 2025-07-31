@@ -1,0 +1,130 @@
+/*************************************************************************** Page Formulaire de contact *************************************************************/
+#formulaire {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+    transition: box-shadow 0.3s ease;
+}
+
+#formulaire:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+#formulaire fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#formulaire legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+#formulaire label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+#formulaire input[type="text"],
+#formulaire input[type="tel"],
+#formulaire input[type="email"],
+#formulaire textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#formulaire input:focus,
+#formulaire textarea:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+    background-color: #fff;
+    outline: none;
+}
+
+#formulaire textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#formulaire input[type="submit"] {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#formulaire input[type="submit"]:hover {
+    background-color: #084298;
+    transform: translateY(-2px);
+}
+
+#formulaire div {
+    margin-top: 30px;
+    color: #555;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/* ===== RESPONSIVE TELEPHONE POUR FORMULAIRE DE CONTACT ===== */
+@media (max-width: 600px) {
+    #formulaire {
+      width: 95%;
+      margin: 20px auto;
+      padding: 20px 15px;
+      font-size: 14px;
+    }
+  
+    #formulaire legend {
+      font-size: 1.2rem;
+    }
+  
+    #formulaire label {
+      font-size: 0.9rem;
+    }
+  
+    #formulaire input[type="text"],
+    #formulaire input[type="tel"],
+    #formulaire input[type="email"],
+    #formulaire textarea {
+      font-size: 0.9rem;
+      padding: 10px 12px;
+      margin-bottom: 15px;
+    }
+  
+    #formulaire textarea {
+      min-height: 90px;
+    }
+  
+    #formulaire input[type="submit"] {
+      font-size: 1rem;
+      padding: 12px 18px;
+    }
+  
+    #formulaire div {
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+  }
+  

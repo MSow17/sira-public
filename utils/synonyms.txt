@@ -1,0 +1,19 @@
+téléphone, smartphone, portable, mobile, cellulaire, téléphone mobile, téléphone intelligent
+ordinateur, pc, laptop, notebook, ordinateur portable, desktop, tour, fixe, workstation
+usb, clé usb, flash disk, clé mémoire, mémoire usb, stick usb, clé usb 3.0, clé usb 2.0
+écran, moniteur, display, dalle, écran lcd, écran led, écran plat, écran pc, écran externe
+tablette, ipad, ardoise numérique, tablette tactile, tablette graphique, slate, tablette android, tablette windows
+souris, souris sans fil, souris filaire, mouse, souris gamer, souris bluetooth
+clavier, clavier sans fil, clavier filaire, clavier mécanique, clavier gamer, clavier bluetooth
+casque, casque audio, casque bluetooth, casque sans fil, écouteurs, écouteurs bluetooth, écouteurs sans fil, casque gaming
+disque dur, hdd, disque dur externe, disque dur interne, ssd, disque à état solide, disque nvme, stockage
+carte graphique, gpu, carte vidéo, carte accélératrice, nvidia, amd radeon, geforce
+routeur, modem, box internet, wifi, routeur wifi, borne wifi, répéteur wifi, point d'accès wifi
+chargeur, chargeur rapide, chargeur usb-c, adaptateur secteur, bloc alimentation, power adapter
+câble, câble usb, câble hdmi, câble ethernet, câble d’alimentation, câble audio, câble vidéo
+logiciel, software, application, programme, app, utilitaire
+imprimante, imprimante laser, imprimante jet d’encre, multifonction, scanner, photocopieur
+serveur, serveur dédié, serveur cloud, hébergement, data center
+microphone, micro, micro sans fil, micro usb, micro casque
+projecteur, vidéoprojecteur, beamer
+clé 4g, clé 5g, modem usb, dongle internet

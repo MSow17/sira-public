@@ -1,0 +1,116 @@
+/* base.css */
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  main {
+    margin: 20px auto 0 auto;
+    padding-bottom: 100px;
+  }
+  
+  h1,h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0d6efd;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+h1:not(.details-product-details h1)::after,
+h2:not(.details-product-details h2)::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #0d6efd;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+  
+  p {
+    margin: 0;
+  }
+  
+  .section strong {
+    display: block;
+    margin-top: 15px;
+    color: #222;
+  }
+  
+ a {
+    text-decoration: none;
+    color: inherit; /* Important pour éviter le bleu par défaut */
+  }
+
+  /* === Responsive : petits écrans / smartphones === */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  main {
+    margin-top: 10px;
+    padding-bottom: 80px;
+  }
+
+  h1, h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  h1::after,
+  h2::after {
+    width: 50px;
+    height: 3px;
+  }
+
+  .section strong {
+    margin-top: 10px;
+  }
+}
+
+.contact-success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px 20px;
+  margin: 20px auto;
+  border-left: 6px solid #28a745;
+  border-radius: 8px;
+  max-width: 600px;
+  font-size: 1.05rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+
+.commande-message {
+  background-color: #fff3f3;
+  color: #b02a2a;
+  padding: 16px 24px;
+  margin: 30px auto;
+  border-left: 6px solid #dc3545;
+  border-radius: 10px;
+  max-width: 600px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.commande-message::before {
+  content: "🛒";
+  font-size: 1.5rem;
+  display: inline-block;
+}

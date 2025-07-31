@@ -1,0 +1,223 @@
+/********************************************************** Page pagnier **************************************/
+.cart-section {
+    max-width: 1100px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cart-table thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.cart-item-image img {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Input quantité */
+.cart-input {
+    width: 60px;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+/* Supprimer bouton */
+.remove-button {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.remove-button:hover {
+    background-color: #c0392b;
+}
+
+/* Total */
+.cart-total-row td {
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #f4f4f4;
+}
+
+/* Formulaire commande */
+.order-form {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.order-form fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-submit-button {
+    background-color: #27ae60;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.order-submit-button:hover {
+    background-color: #219150;
+}
+
+/* Panier vide */
+.empty-cart-message {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+    margin-top: 2rem;
+}
+
+  /* === Stylisation des colonnes Prix et Total en CFA === */
+.cart-table td.cart-item-price,
+.cart-table td.cart-item-total,
+.cart-table tfoot .cart-total-value {
+    width: 140px;            /* Largeur plus grande */
+    font-weight: bold;       /* Texte en gras pour insistance */
+    text-align: right;       /* Alignement à droite pour les montants */
+    white-space: nowrap;     /* Évite les sauts de ligne */
+    font-size: 1.1em;        /* Taille légèrement augmentée */
+    color: #2d3748;          /* Couleur texte gris foncé */
+}
+
+/* === Stylisation des en-têtes Prix et Total === */
+.cart-table th:nth-child(3), /* Colonne Prix */
+.cart-table th:nth-child(5)  /* Colonne Total */
+{
+    width: 140px;
+    text-align: right;
+    font-size: 1.05em;
+}
+
+/* === Alignement et espacement du total final === */
+.cart-table tfoot .cart-total-label {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-right: 10px;
+}
+
+.cart-table tfoot .cart-total-value {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1a202c; /* Plus foncé que les montants ligne à ligne */
+}
+
+/* ===== RESPONSIVE TELEPHONE POUR PAGE PANIER ===== */
+@media (max-width: 600px) {
+    .cart-section {
+      padding: 1rem 1rem 3rem 1rem;
+      max-width: 100%;
+    }
+  
+    /* Rendre le tableau scrollable horizontalement */
+    .cart-table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+      border-radius: 8px;
+    }
+  
+    .cart-table th,
+    .cart-table td {
+      padding: 0.6rem 0.8rem;
+      font-size: 0.9rem;
+    }
+  
+    .cart-item-image img {
+      width: 60px;
+    }
+  
+    .cart-input {
+      width: 50px;
+      padding: 0.3rem;
+    }
+  
+    .remove-button {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.85rem;
+    }
+  
+    .cart-total-row td {
+      font-size: 1rem;
+    }
+  
+    .order-form {
+      padding: 1rem;
+    }
+  
+    .order-form input {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .order-submit-button {
+      padding: 0.6rem 1rem;
+      font-size: 0.95rem;
+    }
+  
+    /* Ajustement largeur colonnes prix et total */
+    .cart-table td.cart-item-price,
+    .cart-table td.cart-item-total,
+    .cart-table tfoot .cart-total-value {
+      width: 100px;
+      font-size: 1em;
+    }
+  
+    .cart-table th:nth-child(3),
+    .cart-table th:nth-child(5) {
+      width: 100px;
+      font-size: 1em;
+    }
+  }
+  

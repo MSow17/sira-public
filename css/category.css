@@ -1,0 +1,233 @@
+/* === Titres personnalisés pour gestion catégories === */
+.category-admin-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.2rem;
+  color: #2c3e50;
+}
+
+.category-admin-subtitle {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+/* === Messages === */
+.category-success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 80%;
+  margin: 10px auto;
+  border-left: 6px solid #28a745;
+}
+
+.category-error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 90%;
+  margin: 10px auto;
+  border-left: 6px solid #dc3545;
+}
+
+/* === Formulaire === */
+.category-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.category-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.category-form input[type="text"],
+.category-form input[type="file"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.category-form button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.category-form button:hover {
+  background-color: #0056b3;
+}
+
+/* === Tableau des catégories === */
+.category-table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.category-table th,
+.category-table td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.category-table th {
+  background-color: #343a40;
+  color: #fff;
+  font-weight: bold;
+}
+
+.category-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.category-image {
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.category-no-image {
+  font-style: italic;
+  color: #777;
+}
+
+/* === Cellule d’actions === */
+
+/* === Boutons === */
+.category-delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-delete-button:hover {
+  background-color: #c82333;
+}
+
+/* === Message vide === */
+.category-empty-message {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* === Bouton retour === */
+.category-actions-top {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+/* === Responsive pour petits écrans (mobiles) === */
+@media (max-width: 480px) {
+  .category-admin-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+  .category-admin-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .category-success-message,
+  .category-error-message {
+    width: 95%;
+    font-size: 0.95rem;
+  }
+
+  .category-form {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .category-form input[type="text"],
+  .category-form input[type="file"] {
+    font-size: 0.95rem;
+    padding: 8px 10px;
+  }
+
+  .category-form button {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+  }
+
+  .category-table {
+    width: 95%;
+    font-size: 0.9rem;
+  }
+
+  .category-table th,
+  .category-table td {
+    padding: 10px 8px;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+
+  .category-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .category-actions-top {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .category-delete-button {
+    width: 100%;
+    padding: 10px;
+  }
+}
